@@ -10,10 +10,10 @@ cd docker-multi-stage-build-demo
 # Build a docker image with <name>:<tag>
 docker build -t gaganichake/docker-multi-stage-build-demo:1.0 .
 
-# Stop the Container if it already running
+# Stop the Container if it already running. Optional.
 docker stop JavaAppContainer
 
-# Force remove the Container if still running
+# Force remove the Container if still running Optional.
 docker rm -f JavaAppContainer
 
 # Run the Container
