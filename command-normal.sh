@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 
 echo "Credit: https://codefresh.io/docker-tutorial/create-docker-images-for-java/"
 
